@@ -42,6 +42,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+BASE_API_URL = "https://zyro.zyronetworks.shop"
+BASE_API_KEY = "JkBwVWTiMTdsflfi4MhDfIiBKu7MPg6F"
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/iamnobita09/NOBITA_MUSIC",
