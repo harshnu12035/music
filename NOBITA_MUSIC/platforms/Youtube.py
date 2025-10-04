@@ -20,9 +20,9 @@ from concurrent.futures import ThreadPoolExecutor
 from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 
 # Import your existing modules
-from AnonXMusic import LOGGER
-from AnonXMusic.utils.database import is_on_off
-from AnonXMusic.utils.formatters import time_to_seconds
+from NOBITA_MUSIC import LOGGER
+from NOBITA_MUSIC.utils.database import is_on_off
+from NOBITA_MUSIC.utils.formatters import time_to_seconds
 from config import BASE_API_URL, BASE_API_KEY
 
 
@@ -771,3 +771,4 @@ class YouTubeAPI:
         return downloaded_file, direct
 
         
+
